@@ -1,0 +1,24 @@
+<svg id="ایکن" xmlns="http://www.w3.org/2000/svg" width="149.443" height="122.736" viewBox="0 0 149.443 122.736">
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="59.371" height="17.626" rx="8.813" transform="translate(18.982 41.479) rotate(-30)" fill="#f6f6f6"/>
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="102.044" height="17.626" rx="8.813" transform="translate(14.468 81.833) rotate(-30)" fill="#f6f6f6"/>
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="74.214" height="17.626" rx="8.813" transform="translate(47.74 102.705) rotate(-30)" fill="#f6f6f6"/>
+  <rect id="Rectangle_5" data-name="Rectangle 5" width="21.336" height="17.626" rx="8.813" transform="translate(109.521 28.028) rotate(-30)" fill="#f6f6f6"/>
+  <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(110.762 116.749)" fill="none" stroke="#fb9d18" stroke-width="1" opacity="0.5">
+    <circle cx="2.994" cy="2.994" r="2.994" stroke="none"/>
+    <circle cx="2.994" cy="2.994" r="2.494" fill="none"/>
+  </g>
+  <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(125.73 68.852)" fill="none" stroke="#189ffb" stroke-width="1" opacity="0.5">
+    <circle cx="4.49" cy="4.49" r="4.49" stroke="none"/>
+    <circle cx="4.49" cy="4.49" r="3.99" fill="none"/>
+  </g>
+  <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(59.871 0)" fill="none" stroke="#189ffb" stroke-width="1" opacity="0.5">
+    <circle cx="2.994" cy="2.994" r="2.994" stroke="none"/>
+    <circle cx="2.994" cy="2.994" r="2.494" fill="none"/>
+  </g>
+  <g id="Group_3" data-name="Group 3" transform="translate(0 16.369)" opacity="0.5">
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="8.981" transform="translate(0 1.592)" fill="#78b116"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="6.343" height="1.586" transform="translate(2.297 6.343) rotate(-90)" fill="#78b116"/>
+  </g>
+  <path id="Path_2" data-name="Path 2" d="M559.961,273.876l1.7-4.793-5.411,1.237Z" transform="translate(-548.434 -193.73)" fill="none" stroke="#fb69da" stroke-width="1" opacity="0.5"/>
+  <path id="Path_3" data-name="Path 3" d="M559.961,273.876l1.7-4.793-5.411,1.237Z" transform="translate(-412.994 -228.053)" fill="none" stroke="#fba225" stroke-width="1" opacity="0.5"/>
+</svg>

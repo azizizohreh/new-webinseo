@@ -1,0 +1,392 @@
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 100;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-thin.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-Light.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-Black.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 950;
+    src: url('../../../assets/fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+    url('../../../assets/fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+}
+
+body, * {
+    font-family: YekanBakh,Tahoma,Arial,sans-serif ;
+}
+h1,h2,h3,h4,h5{
+    font-family: YekanBakh,Tahoma,Arial,sans-serif !important;
+}
+.wrapper{
+    margin:15px;
+    padding:15px;
+}
+.clearfix{
+    clear: both;
+}
+.title-setting{
+    background: #333;
+    color: #bbb;
+    display: block;
+    margin: 11px 5px 0 2px;
+    min-width: 535px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+}
+.title-setting h2{
+    color: #bbb;
+    text-align : center;
+    padding: 10px;
+}
+
+.panel-wrapper{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0px 5px 0 2px;
+    min-width: 533px;
+    padding-bottom: 5px;
+    position: relative;
+    -webkit-box-shadow: 146px 0 0 #f1f1f1,  147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05);
+    -moz-box-shadow:  146px 0 0 #f1f1f1,  147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow:  146px 0 0 #f1f1f1,  147px 0 0 #ccc, 0 1px 3px rgba(0,0,0,0.05);
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    border-radius: 0 0 2px 2px;
+}
+ul.panel-tabs{
+    width: 180px;
+    padding: 0;
+    float: right;
+    margin: 0 0px 0 0;
+    background: #ffffff;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+ul.panel-tabs li{
+    border: 1px solid transparent;
+    border-right-width: 0px;
+    display: block;
+    margin: 0;
+    -webkit-border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    border-radius: 2px 0 0 2px;
+    width: 100%;
+    border-left-width: 0;
+    border-right-width: 1px;
+    -webkit-border-radius: 0 2px 2px 0;
+    -moz-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+}
+ul.panel-tabs li.active,ul.panel-tabs li:hover {
+    background: #00bfd6;
+}
+ul.panel-tabs li a{
+    padding: 5px 0 5px 0;
+    width: 100%;
+    text-indent: 10px;
+    display: block;
+    color: #818285;
+    text-decoration : none;
+    outline: none;
+}
+ul.panel-tabs li.active a,
+ul.panel-tabs li:hover a,
+ul.panel-tabs li:focus a {
+    color: white;
+    outline: none !important;
+}
+ul.panel-tabs li a:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.panel-content{
+    padding: 0;
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    border: none;
+    overflow: hidden;
+}
+.option-tree-ui-buttons {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 11px 5px 0 2px;
+    min-width: 523px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.button-primary {
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, -1px 0 1px #006799, 0 1px 1px #006799, 1px 0 1px #006799;
+}
+.button-primary-red{
+    background: #d63835 !important;
+    border-color: #d63835 #d62828 #d62828 !important;
+    box-shadow: 0 1px 0 #d62828 !important;
+    text-shadow: 0 -1px 1px #d62828, -1px 0 1px #d62828, 0 1px 1px #d62828, 1px 0 1px #d62828 !important;
+}
+.format-setting-label {
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 5px 0px 1px 0px;
+    width: 100%;
+}
+.format-setting {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.format-setting .description {
+    width: 29%;
+    float: right;
+    padding: 5px 0;
+}
+.format-setting .format-setting-inner {
+    width: 70%;
+    float: left;
+    position: relative;
+}
+.setting-wrapper.bottom-line{
+    border-bottom: 2px dotted #d1d1d1;
+    padding-bottom: 15px;
+}
+.icon{
+    margin-top: 3px;
+    opacity: 0.9;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 0;
+    width: 18px;
+}
+.input-setting{
+    background: #fff;
+    border: 1px solid #ccc !important;
+    line-height: 17px;
+    font-size: 12px;
+    margin-bottom: 5px !important;
+    padding: 7px 6px;
+    position: relative;
+    width: 90% !important;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.checkbox-setting{
+    margin: 0 !important;
+}
+.img-setting{
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 4px;
+    display: block;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    max-height: 300px;
+}
+.fieldset,.fieldset-faq{
+    padding: 15px;
+    margin: 10px 0;
+    border: 1.2px solid #d1d1d1;
+    border-radius: 5px;
+}
+.widefat thead tr,
+.widefat tfoot tr{
+    background: #ddd;
+    font-weight: bold;
+}
+.widefat thead tr th,
+.widefat tfoot tr th{
+    font-weight: bold;
+}
+.pagination{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+
+}
+.pagination .page-numbers{
+    padding: 5px 10px;
+    border: 1px solid #0085ba;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #0085ba;
+    color: #fff;
+}
+.pagination .page-numbers.current{
+    border: 1px solid #d1d1d1;
+    background: #d1d1d1;
+    color: #000;
+}
+/*.auto-fold .edit-post-header{*/
+/*    top: 90px;*/
+/*}*/
+
+.components-notice.is-error{
+    background: #f3c5c5;
+    padding: 10px;
+    margin: 0;
+    border-right: 2px solid #dc0f0f;
+}
+.components-notice.is-success{
+    background: #c5f3c7;
+    padding: 10px;
+    margin: 0;
+    border-right: 2px solid #13a00a;
+}
+
+/*********************************************product new meta boxes*/
+
+/*product english name*/
+#product_en_name_box .input-product-en-name {
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+}
+#product_en_name_box .label-product-en-name{
+    cursor: default;
+    margin: 12px 7px;
+    display: block;
+    font-weight: 600;
+}
+/*product warranty*/
+#product_variants_meta_warranty .warranty-check{
+    float: right;
+}
+/*product color*/
+.format-setting-label {
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 5px 0px 1px 0px;
+    width: 100%;
+}
+#product_variants_meta_color .select-color-name{
+    margin-top: 20px;
+}
+#product_variants_meta_color .description{
+    width: 39%;
+    float: right;
+    padding: 5px 0;
+}
+#product_variants_meta_color .format-setting-inner{
+    width: 60%;
+    float: left;
+    position: relative;
+}
+#product_variants_meta_color .format-setting{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#product_variants_meta_color .input-product-color{
+    width: 20%;
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+.wrapper .awaiting-mod,
+.wrapper .update-plugins {
+    display: inline-block;
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #d63638;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+    z-index: 26;
+    position: relative;
+}
+.wrapper .update-plugins span{
+    position: absolute;
+    top: 1px;
+    right: -2px;
+}
+body.wp-admin {
+    height: auto;
+    position: relative !important;
+}
+.text-left{
+    text-align: left;
+}
